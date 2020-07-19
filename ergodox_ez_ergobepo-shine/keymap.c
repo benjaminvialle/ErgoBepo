@@ -139,13 +139,6 @@ uint32_t layer_state_set_user(uint32_t state) {
         break;
     }
     switch (layer) {
-      case 0:
-        if(!disable_layer_color) {
-          rgblight_enable_noeeprom();
-          rgblight_mode_noeeprom(1);
-          rgblight_sethsv_noeeprom(67,243,154);
-        }
-        break;
       case 1:
         if(!disable_layer_color) {
           rgblight_enable_noeeprom();
