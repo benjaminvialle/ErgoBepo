@@ -43,9 +43,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_ergodox_pretty(
     BP_DLR,         BP_DQOT,        BP_LGIL,        BP_RGIL,        BP_LPRN,        BP_RPRN,        RGB_TOG,                                        BP_PERC,        BP_AT,          BP_PLUS,        BP_MINS,        BP_SLSH,        BP_ASTR,        BP_EQL,
     KC_TAB,         BP_B,           BP_ECUT,        BP_P,           BP_O,           BP_EGRV,        KC_DELETE,                                      KC_BSPACE,      BP_DCRC,        BP_V,           BP_D,           BP_L,           BP_J,           BP_Z,
-    KC_CAPSLOCK,    BP_A,           BP_U,           BP_I,           BP_E,           BP_COMM,                                                                        BP_C,           BP_T,           BP_S,           BP_R,           BP_N,           BP_M,
+    LSFT_T(KC_CAPSLOCK),BP_A,           BP_U,           BP_I,           BP_E,           BP_COMM,                                                                        BP_C,           BP_T,           BP_S,           BP_R,           BP_N,           RSFT_T(BP_M),
     KC_LSHIFT,      BP_AGRV,        BP_Y,           BP_X,           BP_DOT,         BP_K,           KC_ESCAPE,                                      KC_ESCAPE,      BP_APOS,        BP_Q,           BP_G,           BP_H,           BP_F,           KC_RSHIFT,
-    KC_TRANSPARENT, KC_LCTRL,       KC_LGUI,        KC_LEFT,        KC_RIGHT,                                                                                                       KC_UP,          KC_DOWN,        BP_W,           BP_CCED,        MO(1),
+    MO(2),          KC_LCTRL,       KC_LGUI,        KC_LEFT,        KC_RIGHT,                                                                                                       KC_UP,          KC_DOWN,        BP_W,           BP_CCED,        MO(1),
                                                                                                     TG(1),          TG(2),          KC_TRANSPARENT, KC_TRANSPARENT,
                                                                                                                     KC_HOME,        KC_PGUP,
                                                                                     KC_SPACE,       KC_LALT,        KC_END,         KC_PGDOWN,      KC_RALT,        KC_ENTER
