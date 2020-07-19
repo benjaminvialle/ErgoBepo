@@ -143,14 +143,14 @@ uint32_t layer_state_set_user(uint32_t state) {
         if(!disable_layer_color) {
           rgblight_enable_noeeprom();
           rgblight_mode_noeeprom(1);
-          rgblight_sethsv_noeeprom(165,190,212);
+          rgblight_sethsv_noeeprom(0,255,255);
         }
         break;
       case 2:
         if(!disable_layer_color) {
           rgblight_enable_noeeprom();
           rgblight_mode_noeeprom(1);
-          rgblight_sethsv_noeeprom(204,227,222);
+          rgblight_sethsv_noeeprom(88,253,189);
         }
         break;
       default:
